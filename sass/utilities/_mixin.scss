@@ -1,0 +1,21 @@
+////////////// mixin flex justify-c align-i//////////////
+
+@mixin flex ($justify-c, $align-i, $direction) {
+    display: flex;
+    justify-content: $justify-c;
+    align-items: $align-i;
+    flex-direction: $direction;
+}
+
+////////////// animacion //////////////
+
+@mixin animation {
+    content: "";
+    width: 100%;
+    height: .5px;
+    background-color: #fff;
+    display: block;
+    animation-name: linea;
+    animation-duration: .3s;
+    animation-fill-mode: forwards;
+}
