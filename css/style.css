@@ -39,7 +39,7 @@ li {
 #header-container {
   display: flex;
   justify-content: center;
-  background-color: #465d71;
+  background-color: #4b5156;
   padding: 15px;
 }
 #header-container .header-nav {
@@ -76,7 +76,7 @@ li {
 #section-uno {
   display: flex;
   justify-content: center;
-  background-color: #465d71;
+  background-color: #4b5156;
 }
 #section-uno .section-uno-div {
   display: flex;
@@ -134,7 +134,7 @@ li {
 #section-uno .section-uno-div .contacto .nombre .name-a {
   font-family: "Alfa Slab One", cursive;
   font-size: 8rem;
-  color: rgba(43, 60, 75, 0.5411764706);
+  color: rgba(90, 96, 100, 0.5411764706);
   cursor: default;
 }
 
@@ -144,7 +144,7 @@ li {
   align-items: center;
   flex-wrap: wrap;
   height: 700px;
-  background-color: #262121;
+  background-image: url(https://i.pinimg.com/originals/17/c7/1e/17c71ea533b911ff9e62a4eb0cca3739.jpg);
 }
 #section-dos .certificado {
   display: flex;
