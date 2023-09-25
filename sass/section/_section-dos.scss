@@ -1,0 +1,40 @@
+#section-dos {
+    @include flex (space-between, center, null);
+    flex-wrap: wrap;
+    height: 700px;
+    background-color: #262121;
+        .certificado {
+            @include flex (flex-start, null, null);
+            width: 40%;
+            height: 100%;
+            overflow: hidden;
+                img {
+                    max-width: 750px;
+                    filter: drop-shadow(1px 1px 10px #5a5353);
+                }
+        }
+        .sobre-mi {
+            @include flex (flex-start,center,null);
+            width: 60%;
+            height: 100%;
+            .info-contenido {
+                margin-left: 10px;
+            }
+                .conocer-mas {
+                    font-family: Georgia, serif;
+                    font-size: 1.5rem;
+                    color: $nombre-c;
+                }
+                h4 {
+                    font-size: 3rem;
+                    color: $nombre-c;
+                }
+                p {
+                    margin-top: 40px;
+                    font-family: Georgia, serif;
+                    font-size: 1.2rem;
+                    color: $nombre-c;
+                    line-height: 1.3;
+                }
+        }
+}
