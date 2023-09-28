@@ -1,0 +1,45 @@
+#section-tres {
+    @include flex (center, center ,null);
+    background-color: #4b5156;
+    .section-tres-container {
+        @include flex (center, center ,null);
+    }
+    .section-tres-titulo {
+        margin: 0 50px;
+        width: 40%;
+        height: 100%;
+        h2 {
+            margin: 15px 0;
+            text-align: center;
+            color: $nombre-c;
+            font-family: 'Angkor', cursive;
+            letter-spacing: 3px;
+        }
+        p {
+            margin-bottom: 25px;
+            font-family: Georgia, serif;
+            font-size: 1.2rem;
+            color: $nombre-c;
+            line-height: 1.5;
+        }
+        
+    }
+        .certificado {
+            margin: 20px 0;
+            @include flex (center, center ,column);
+                img {
+                    max-width: 750px;
+                    -webkit-box-shadow: 4px 5px 20px 0px rgba(255, 0, 255, 0.52);
+                    -moz-box-shadow: 4px 5px 20px 0px rgba(255, 0, 255, 0.52);
+                    box-shadow: 4px 5px 20px 0px rgba(195, 255, 0, 0.52);
+                }
+                h3 {
+                    margin: 20px 0;
+                    letter-spacing: 2px;
+                    font-family: Georgia, serif;
+                    font-size: 1.2rem;
+                    color: $nombre-c;
+                }
+        }
+        
+}

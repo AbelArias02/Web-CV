@@ -3,7 +3,7 @@
     flex-wrap: wrap;
     height: 700px;
     background-image: url(https://i.pinimg.com/originals/17/c7/1e/17c71ea533b911ff9e62a4eb0cca3739.jpg);
-        .certificado {
+        .informacion {
             @include flex (flex-start, null, null);
             width: 40%;
             height: 100%;
@@ -30,6 +30,7 @@
                     color: $nombre-c;
                 }
                 p {
+                    margin-right: 15px;
                     margin-top: 40px;
                     font-family: Georgia, serif;
                     font-size: 1.2rem;
